@@ -22,6 +22,51 @@
 
 ---
 
+## 🛠 Как развернуть проект с нуля
+
+### 1. Клонировать репозиторий
+
+```bash
+git clone https://github.com/Alexandr-Mikhin/ML_project.git
+cd ML_project
+```
+### 2. Создать виртуальное окружение
+Windows:
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+Mac / Linux:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+### 3. Установить зависимости
+```bash
+pip install -r requirements.txt
+```
+### 4. Подготовить данные
+Золотой стандарт (размеченные отзывы) лежит в папке Датасеты.
+### 5. Обучить модель
+```bash
+jupyter notebook Блокноты/ML_project_Итог.ipynb
+```
+Ноутбук содержит:
+
+- Загрузку данных
+
+- Обучение RuBERT
+
+- Оценку качества модели
+
+После обучения модель сохранится в папку fake_detector_model
+
+### 6. Запустить веб-сервис локально
+```bash
+python app.py
+```
+
+---
 ## Результаты модели
 
 | Метрика | Значение |
@@ -40,3 +85,20 @@
 
 **Ответ модели:**  
 🟢 Вероятнее всего, это честный отзыв. Вероятность рекламы: 8.62%
+## 📝 Зависимости
+Основные библиотеки:
+
+- gradio — веб-интерфейс
+
+- transformers — RuBERT модель
+
+- torch — глубокое обучение
+
+- pandas — работа с данными
+
+- scikit-learn — метрики
+
+- openpyxl — работа с Excel файлами
+
+Полный список в requirements.txt
+
