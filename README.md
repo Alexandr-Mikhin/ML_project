@@ -14,6 +14,14 @@
 
 ---
 
+## Исходные данные
+
+Датасет с отзывами взят с Kaggle:
+
+**👉 [Yandex Geo Reviews Dataset 2023](https://www.kaggle.com/datasets/kyakovlev/yandex-geo-reviews-dataset-2023)**
+
+---
+
 ## Результаты модели
 
 | Метрика | Значение |
