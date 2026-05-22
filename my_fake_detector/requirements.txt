@@ -1,3 +1,7 @@
 gradio
 transformers
 torch
+pandas
+openpyxl
+scikit-learn
+numpy
