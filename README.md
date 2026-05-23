@@ -10,7 +10,7 @@
 
 Модель развёрнута на Hugging Face Spaces:
 
-**[https://huggingface.co/spaces/AlexandrMikhin/fake-review-detector](https://huggingface.co/spaces/AlexandrMikhin/fake-review-detector)**
+** [https://huggingface.co/spaces/AlexandrMikhin/fake-review-detector](https://huggingface.co/spaces/AlexandrMikhin/fake-review-detector) **
 
 ---
 
