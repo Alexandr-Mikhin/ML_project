@@ -18,11 +18,11 @@
 
 Датасет с отзывами взят с Kaggle:
 
-**[Yandex Geo Reviews Dataset 2023](https://www.kaggle.com/datasets/kyakovlev/yandex-geo-reviews-dataset-2023)**
+** [Yandex Geo Reviews Dataset 2023](https://www.kaggle.com/datasets/kyakovlev/yandex-geo-reviews-dataset-2023)**
 
 ---
 
-##Как развернуть проект с нуля
+## Как развернуть проект с нуля
 
 ### 1. Клонировать репозиторий
 
